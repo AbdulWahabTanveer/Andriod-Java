@@ -24,9 +24,9 @@
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_below="@+id/CompanyName"
+        android:layout_below="@+id/Pass"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="450dp"
+        android:layout_marginTop="100dp"
         android:onClick="onLoginbtnClicked"
         android:padding="10dp"
         android:text="Log In"
@@ -35,14 +35,14 @@
         android:textStyle="bold" />
 
     <EditText
-        android:id="@+id/Email"
+        android:id="@+id/Name"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_below="@+id/CompanyName"
         android:layout_marginLeft="30dp"
         android:layout_marginTop="120dp"
         android:layout_marginRight="20dp"
-        android:hint="Email"
+        android:hint="Name"
         android:inputType="textEmailAddress"
         android:textStyle="bold" />
 
@@ -50,32 +50,11 @@
         android:id="@+id/Pass"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_below="@+id/Email"
+        android:layout_below="@+id/Name"
         android:layout_margin="30dp"
         android:hint="Password"
         android:inputType="textPassword"
         android:textStyle="bold" />
 
-    <TextView
-        android:id="@+id/Result"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_below="@+id/Pass"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="20dp"
-        android:padding="10dp"
-        android:textSize="25sp"
-        android:textStyle="bold" />
-
-    <TextView
-        android:id="@+id/Result2nd"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_below="@+id/Result"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="10dp"
-        android:padding="10dp"
-        android:textSize="25sp"
-        android:textStyle="bold" />
 
 </RelativeLayout>
